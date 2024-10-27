@@ -1,0 +1,21 @@
+{
+  "name": "@j.u.p.iter/cli-styler",
+  "version": "0.0.0-semantically-released",
+  "description": "Library to add styles for the messages printed in the terminal",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "jupiter-scripts build",
+    "lint": "jupiter-scripts lint",
+    "test": "jupiter-scripts test"
+  },
+  "devDependencies": {
+    "@j.u.p.iter/execute-command": "^1.0.3",
+    "@j.u.p.iter/scripts": "^1.7.0"
+  },
+  "packageManager": "yarn@1.22.19"
+}
