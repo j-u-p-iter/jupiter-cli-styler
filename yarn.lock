@@ -530,10 +530,10 @@
   dependencies:
     concat-stream "^2.0.0"
 
-"@j.u.p.iter/scripts@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.npmjs.org/@j.u.p.iter/scripts/-/scripts-1.7.0.tgz#4de000f0a6d508c8b71b1f6ca182f19bade82d9d"
-  integrity sha512-BVE+z0qx4wv2QRThSwPAbueYueMRmTxPUyUw87ngT21hWjrK7DA48InVQfknvHtgGZroF3f3/+q/9D3XKN7aTg==
+"@j.u.p.iter/scripts@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.npmjs.org/@j.u.p.iter/scripts/-/scripts-1.7.1.tgz#93fbf5fa2f8043314c15e8e3903bb38d9fe76202"
+  integrity sha512-KzCIB0AG6KvXu7JDYoUmSkmOkOGMuxpXxYkryuZuRssbU3KgwGokqEYNvl5U0jYDQ69bUWE2KnvE/4Khy3O4pg==
   dependencies:
     "@eslint/js" "^8.50.0"
     "@typescript-eslint/eslint-plugin" "^6.9.0"

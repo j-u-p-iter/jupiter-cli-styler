@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@j.u.p.iter/execute-command": "^1.0.3",
-    "@j.u.p.iter/scripts": "^1.7.0"
+    "@j.u.p.iter/scripts": "^1.7.1"
   },
   "packageManager": "yarn@1.22.19"
 }
