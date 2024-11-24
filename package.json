@@ -12,7 +12,8 @@
     "build": "jupiter-scripts build",
     "lint": "jupiter-scripts lint",
     "test": "jupiter-scripts test",
-    "commit": "jupiter-scripts commit"
+    "commit": "jupiter-scripts commit",
+    "validate": "jupiter-scripts validate"
   },
   "devDependencies": {
     "@j.u.p.iter/execute-command": "^1.0.3",

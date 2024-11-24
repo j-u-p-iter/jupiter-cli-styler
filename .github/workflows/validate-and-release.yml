@@ -29,9 +29,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Build package
-        run: yarn build
-
       - name: Validate package
         run: yarn validate
 
