@@ -47,8 +47,10 @@ export type StylerFormatTextApi = [
   "bgWhite",
 ];
 
+export type FormatTextApiMethod = StylerFormatTextApi[number];
+
 export type BaseStyler = {
-  [key in StylerFormatTextApi[number]]: (() => BaseStyler) | BaseStyler;
+  [key in FormatTextApiMethod]: (() => CLIStylerType) & CLIStylerType;
 };
 
 export type CLIStylerType = InitialStyler & BaseStyler;
