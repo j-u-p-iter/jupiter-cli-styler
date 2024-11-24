@@ -1,7 +1,11 @@
-import { cliStyler } from "../cliStyler";
+import { FormatTextApiMethod } from "../types.js";
+import { cliStyler } from "../cliStyler.js";
 
 describe("cliStyler", () => {
-  it.each([
+  it.each<{
+    colorName: FormatTextApiMethod;
+    expectedColorId: number;
+  }>([
     {
       colorName: "black",
       expectedColorId: 30,
@@ -43,7 +47,10 @@ describe("cliStyler", () => {
     },
   );
 
-  it.each([
+  it.each<{
+    colorName: FormatTextApiMethod;
+    expectedColorId: number;
+  }>([
     {
       colorName: "bgBlack",
       expectedColorId: 40,

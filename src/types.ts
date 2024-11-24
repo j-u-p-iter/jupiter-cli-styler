@@ -48,7 +48,7 @@ export type StylerFormatTextApi = [
 ];
 
 export type BaseStyler = {
-  [key in keyof StylerFormatTextApi]: () => BaseStyler;
+  [key in StylerFormatTextApi[number]]: (() => BaseStyler) | BaseStyler;
 };
 
 export type CLIStylerType = InitialStyler & BaseStyler;
