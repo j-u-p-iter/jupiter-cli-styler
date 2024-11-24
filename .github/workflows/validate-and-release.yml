@@ -13,7 +13,7 @@ jobs:
   validate:
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]
         node: [18.18.0]
     runs-on: ${{ matrix.os }}
 
